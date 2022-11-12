@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.RadioButton?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane fx:id="cbnumber" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.gurallalab4.HelloController">
+   <children>
+      <Label layoutX="236.0" layoutY="14.0" prefHeight="28.0" prefWidth="145.0" text="Harshitha Store " />
+      <Button fx:id="btnOK" layoutX="342.0" layoutY="360.0" mnemonicParsing="false" onAction="#handleBtnOK" text="Place Order" />
+      <TextArea fx:id="taSummary" layoutX="345.0" layoutY="133.0" prefHeight="227.0" prefWidth="255.0" />
+      <ComboBox fx:id="item" layoutX="2.0" layoutY="89.0" prefHeight="25.0" prefWidth="149.0" promptText="Select Item" />
+      <ComboBox fx:id="number" layoutX="186.0" layoutY="89.0" prefHeight="25.0" prefWidth="149.0" promptText="Set Quantity " />
+      <TextField fx:id="name" layoutX="2.0" layoutY="138.0" promptText="name " />
+      <TextField fx:id="phoneNumber" layoutX="186.0" layoutY="138.0" promptText="phone Number " />
+      <TextField fx:id="address" layoutX="3.0" layoutY="175.0" promptText="Address" />
+      <RadioButton fx:id="delivery" layoutX="205.0" layoutY="179.0" mnemonicParsing="false" text="home delivery" />
+      <Button fx:id="btnReset" layoutX="507.0" layoutY="360.0" mnemonicParsing="false" onAction="#handleBtnReset" text="Reset Order" />
+      <TextArea fx:id="taSummary1" layoutX="345.0" layoutY="45.0" prefHeight="88.0" prefWidth="255.0" />
+      <Button fx:id="btnOK1" layoutX="119.0" layoutY="234.0" mnemonicParsing="false" onAction="#handleBtnOK1" text="Add Item" />
+   </children>
+</AnchorPane>
